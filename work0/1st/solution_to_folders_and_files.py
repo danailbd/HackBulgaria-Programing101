@@ -28,7 +28,7 @@ for func_name in al_F:
     solution_file.close()
     call(["touch", func_name[0] + "/test.py"])
     call(["git", "add", "."])
-    call(["git", "commit", "-m Added folder named " + func_name[0] +\
+    call(["git", "commit", "-m 'Added folder named' " + func_name[0] +\
           " , solution and test files."])
     print("making dir --" + func_name[0] + "\n")
 
